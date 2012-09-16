@@ -15,6 +15,15 @@
 
             ws.bind(XSockets.Events.open, function (conn) {
 
+                //Listen for the hellome event
+                ws.bind('hellome', function(data) {
+                    console.log(data);
+                });
+
+                //Trigger a hellome event when connection opened, but we dont send any data.. 
+                //Look at serverside DemoController and the 'hellome' handlerevent
+                ws.trigger('hellome', { });
+
                 $("#nobinding").bind('click', function () {
                     ws.trigger('noBinding', {});
                 });
@@ -57,6 +66,7 @@
 </head>
     <body>
         <h2>EventHandlers</h2>
+        <div>TBD</div>
         <h2>Bindings</h2>
         <div>
             <button id="nobinding">No Binding</button>
@@ -86,5 +96,6 @@
             <button id="modelandparameterbindingcomplex">ModelAndParameter Binding Complex</button>
         </div>
         <h2>Sending</h2>
+        <div>TBD</div>
     </body>
 </html>
