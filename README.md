@@ -10,6 +10,7 @@ This examples will show you the basics in XSockets.NET JavaScript API and the se
 Some stuff built on XSockets  
  * [Remote controlled presentation](http://preso.xsockets.net)  
  * [XSockets on Azure](http://live.xsockets.net)  
+ * [XFiddle - A realtime playground for JavaScript](http://xfiddle.net)
  * [JSFiddle simple chat](http://jsfiddle.net/codeplanner/Jk7YJ/)  
  * [JSFiddle image resize](http://jsfiddle.net/codeplanner/X5bsx/)  
  * [XSockets and Wijmo](http://jsfiddle.net/codeplanner/RA65m/)  
