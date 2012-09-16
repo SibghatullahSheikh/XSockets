@@ -5,13 +5,13 @@ XSockets.NET is available on [nuget](http://nuget.org/packages/xsockets)
 This examples will show you the basics in XSockets.NET JavaScript API and the server side API for building plugins.
 
 ## XSockets examples...
-Some stuff built on XSockets
- * [Remote controlled presentation](http://preso.xsockets.net)
- * [XSockets on Azure](http://live.xsockets.net)
- * [JSFiddle simple chat](http://jsfiddle.net/codeplanner/Jk7YJ/)
- * [JSFiddle image resize](http://jsfiddle.net/codeplanner/X5bsx/)
- * [XSockets and Wijmo](http://jsfiddle.net/codeplanner/RA65m/)
-
+Some stuff built on XSockets  
+ * [Remote controlled presentation](http://preso.xsockets.net)  
+ * [XSockets on Azure](http://live.xsockets.net)  
+ * [JSFiddle simple chat](http://jsfiddle.net/codeplanner/Jk7YJ/)  
+ * [JSFiddle image resize](http://jsfiddle.net/codeplanner/X5bsx/)  
+ * [XSockets and Wijmo](http://jsfiddle.net/codeplanner/RA65m/)  
+  
 ## JavaScript - A first example...
 
 Open a connection to a server on localhost and our controller named Demo...
