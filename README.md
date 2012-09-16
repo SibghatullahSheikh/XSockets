@@ -67,3 +67,9 @@ But here we show howto create a simple plugin intercepting our 'mytest' message.
 ## A working project...
 
 You can download the project found under the src directory and try more examples.
+
+The sample project was created by doing the following.
+1. Created a new MVC3 project in Visual Studio (2010 or 2012)
+2. Ran 'Install-Package XSockets' in the package manager console
+3. Created a new plugin by running 'Scaffold XSocketHandler Demo'
+4. Wrote some examples in C# as well as a simple demopage (democontrollerpage.html) under GettingStartedWithXSockets\XSockets
