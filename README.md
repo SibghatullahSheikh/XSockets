@@ -7,13 +7,15 @@ This examples will show you the basics in XSockets.NET JavaScript API and the se
 ## JavaScript - A first example...
 
 Send a custom message with an event named "mytest" to the server.
+    
     ws.trigger('mytest',{Message:'Hello World'});
-
+    
 Listen for the 'mytest' message
+    
     ws.bind('mytest',function(data){
         console.log(data);
     });
-
+    
 ## C# - A first example
 
 If you do not listen for messages (or intercept them) on the server, they will pass right through and will be sent to everyone listening for them.
