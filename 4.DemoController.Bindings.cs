@@ -48,6 +48,11 @@ namespace XSocketHandler.Tutorial
             Debug.WriteLine("");
         }
 
+        /// <summary>
+        /// To hit this method trigger a event named 'singleParameterBinding'
+        /// and pass in JSON = {number:123}
+        /// </summary>
+        /// <param name="number"></param>
         [HandlerEvent("singleParameterBinding")]
         public void Demo2_1(int number)
         {
