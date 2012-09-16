@@ -6,15 +6,21 @@ This examples will show you the basics in XSockets.NET JavaScript API and the se
 
 ## JavaScript - A first example...
 
-Send a custom message with an event named "mytest" to the server.
+Open a connection to a server on localhost and our controller named Demo...
     
-    ws.trigger('mytest',{Message:'Hello World'});
+    ws = new XSockets.WebSocket("ws://127.0.0.1:4502/Demo", "Demo");
     
+
 Listen for the 'mytest' message
     
     ws.bind('mytest',function(data){
         console.log(data);
     });
+    
+Send a custom message with an event named "mytest" to the server.
+    
+    ws.trigger('mytest',{Message:'Hello World'});
+    
     
 ## C# - A first example
 
@@ -43,6 +49,7 @@ But here we show howto create a simple plugin intercepting our 'mytest' message.
             Debug.WriteLine("");
 
             //Will send the message to all clients listening.
+            //There are lots of other ways to send messages and filter where to send them.
             this.SendToAll(new {Message=Message},"mytest");
         }
      
