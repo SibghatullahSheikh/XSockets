@@ -4,6 +4,8 @@ XSockets.NET is a realtime communication platform.
 XSockets.NET is available on [nuget](http://nuget.org/packages/xsockets)
 This examples will show you the basics in XSockets.NET JavaScript API and the server side API for building plugins.
 
+> "[Blogpost on getting started with XSockets](http://xsockets.net/xsockets-20-released)"
+
 ## XSockets examples...
 Some stuff built on XSockets  
  * [Remote controlled presentation](http://preso.xsockets.net)  
@@ -81,3 +83,6 @@ The sample project was created by doing the following.
  * Ran 'Install-Package XSockets' in the package manager console
  * Created a new plugin by running 'Scaffold XSocketHandler Demo'
  * Wrote some examples in C# as well as a simple demopage (democontrollerpage.html) under GettingStartedWithXSockets\XSockets
+
+## Create your own project from scratch
+[Blogpost on getting started with XSockets](http://xsockets.net/xsockets-20-released)
