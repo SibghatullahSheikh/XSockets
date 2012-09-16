@@ -16,7 +16,7 @@ namespace XSocketHandler.Tutorial
         public void OnHelloMeMessage()
         {
             //Send a message back to the caller
-            this.Send(new TextArgs("Hello Me From XSockets.NET","HelloMe"));
+            this.Send(new { Message = "Hello Me From XSockets.NET" }.AsTextArgs("HelloMe"));
         }
     }
 }

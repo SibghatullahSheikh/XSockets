@@ -15,6 +15,12 @@
 
             ws.bind(XSockets.Events.open, function (conn) {
 
+                ws.bind('hellome', function(data) {
+                    console.log(data);
+                });
+
+                ws.trigger('hellome', { });
+
                 $("#nobinding").bind('click', function () {
                     ws.trigger('noBinding', {});
                 });

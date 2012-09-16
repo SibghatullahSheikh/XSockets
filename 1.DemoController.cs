@@ -12,12 +12,7 @@ namespace XSocketHandler.Tutorial
     [XBaseSocketMetadata("Demo", Constants.GenericTextBufferSize)]
     //We would probably name the class the same thing as the Alias, but we dont just to show that it doesnt matter
     public partial class DemoController : XBaseSocket
-    {
-        /// <summary>
-        /// This is a custom property that will be used for filtering etc
-        /// </summary>
-        public string UserName { get; set; }
-     
+    {     
         /// <summary>
         /// This method is required since its abstract in XBaseSocket
         /// </summary>
