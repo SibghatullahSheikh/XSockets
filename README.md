@@ -6,11 +6,11 @@ This examples will show you the basics in XSockets.NET JavaScript API and the se
 
 ## XSockets examples...
 Some stuff built on XSockets
-[Remote controlled presentation](http://preso.xsockets.net)
-[XSockets on Azure](http://live.xsockets.net)
-[JSFiddle simple chat](http://jsfiddle.net/codeplanner/Jk7YJ/)
-[JSFiddle image resize](http://jsfiddle.net/codeplanner/X5bsx/)
-[XSockets and Wijmo](http://jsfiddle.net/codeplanner/RA65m/)
+ * [Remote controlled presentation](http://preso.xsockets.net)
+ * [XSockets on Azure](http://live.xsockets.net)
+ * [JSFiddle simple chat](http://jsfiddle.net/codeplanner/Jk7YJ/)
+ * [JSFiddle image resize](http://jsfiddle.net/codeplanner/X5bsx/)
+ * [XSockets and Wijmo](http://jsfiddle.net/codeplanner/RA65m/)
 
 ## JavaScript - A first example...
 
